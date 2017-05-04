@@ -60,8 +60,8 @@ googleAnalytics = "UA-83914032-1"
 
     # postpended links
     [[menu.postpend]]
-        url = "https://www.youtube.com/channel/UCvaLAp2CWIPqNUFs4nfa9ew"
-        name = "Research"
+        url = "http://learn.3dsim.com"
+        name = "News & Research"
         weight = 5
     [[menu.postpend]]
         url = "https://app.3dsim.com"
