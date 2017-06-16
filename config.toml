@@ -71,6 +71,10 @@ googleAnalytics = "UA-83914032-1"
         name = "Login"
         weight = 20
 
+	[params.callToAction]
+		url = "https://simulation.3dsim.com/signup"
+		name = "Free Trial"
+		enable = false
 
 	# Hero section
 	[params.hero]
@@ -91,7 +95,7 @@ googleAnalytics = "UA-83914032-1"
 
 	# Services section
 	[params.services]
-    enable = true
+    	enable = true
 		title = "Features"
 		subtitle = "Providing unprecedented insight into metal 3D printing processes."
 
