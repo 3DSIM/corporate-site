@@ -184,10 +184,10 @@ googleAnalytics = "UA-83914032-1"
 			title = "Building Our Vision"
 			description = "Grew the team by 4x.  Completed structural mechanics and thermal solvers.  Built cloud delivery framework.  Engaged alpha users."
 
-    [[params.about.events]]
+    	[[params.about.events]]
 			img = "launch_small.jpg"
 			date = "September 2016"
-			title = "exaSIM Beta Launch!"
+			title = "exaSIM Launch!"
 			description = "The first easy to use cloud-based simulation tool for predicting stress and distortion in metal laser sintering."
 
 

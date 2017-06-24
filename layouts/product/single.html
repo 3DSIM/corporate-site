@@ -65,10 +65,7 @@
                   <div class="highlight">{{ $highlight }}</div>
                 {{ end }}
               </div>
-              <a href="{{ $tier.buttonLink }}" class="btn btn-xl" {{if $tier.available }}data-toggle="modal"{{ end }}>{{ $tier.buttonText }}</a>
-              {{ if $tier.available }}
-                {{ partial "subscribe.html" $tier }}
-              {{ end }}
+              <a href="{{ $tier.buttonLink }}" class="btn btn-xl">{{ $tier.buttonText }}</a>
               <div class="feature-list">
                 {{ range $_, $feature := $tier.features }}
                   <div class="feature"><i class="fa fa-check"></i> {{ $feature }}</div>
