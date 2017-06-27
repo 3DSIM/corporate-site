@@ -2,7 +2,7 @@
 baseurl = "https://3dsim.github.io/corporate-site/"
 languageCode = "en-us"
 title = "Additive Manufacturing Simulation"
-copyright = "All rights reserved - 2016"
+copyright = "All rights reserved - 2017"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-83914032-1"
@@ -273,7 +273,7 @@ googleAnalytics = "UA-83914032-1"
 	# Footer section
 	[params.footer]
     enable = true
-		copyright = "&#169;Copyright 2016 3DSIM LLC, All Rights Reserved"
+		copyright = "&#169;Copyright 2017 3DSIM LLC, All Rights Reserved"
     contact = "<i class=\"fa fa-map-marker\"></i> 1794 Olympic Parkway, Park City, UT 84098 <br/><i class=\"fa fa-phone\"></i> (435) 602-4033"
 
 		# [[params.footer.social]]
