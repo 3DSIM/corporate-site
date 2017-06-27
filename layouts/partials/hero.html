@@ -10,8 +10,10 @@
             <div id="typed-next-strings" hidden="true" class="intro-heading"><p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p></div>
             <div id="typed-next" class="intro-heading" style="display:inline"></div>
             <div class="bottom">
+              {{ if .Site.Params.hero.videoButtonEnabled }}
               <a class="popup-youtube btn btn-xl" href="{{ .Site.Params.hero.videoLink }}">{{ with.Site.Params.hero.videoButtonText }}{{ . | markdownify }}{{ end }}</a>
-              <a href="#services" class="page-scroll btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
+              {{ end }}
+              <a href="{{ .Site.Params.hero.buttonLink }}" class="btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
             </div>
           </div>
         </div>
