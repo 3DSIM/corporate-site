@@ -64,7 +64,7 @@ googleAnalytics = "UA-83914032-1"
     # postpended links
     [[menu.postpend]]
         url = "http://learn.3dsim.com"
-        name = "News & Research"
+        name = "Learn More"
         weight = 5
     [[menu.postpend]]
         url = "https://app.3dsim.com"
