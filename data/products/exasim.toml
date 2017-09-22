@@ -58,20 +58,21 @@ img = "img/products/exasim/trends.png"
 [[tiers]]
 planIdRoot = "exasim-basic-"
 name = "exaSIM BASIC"
-monthlyPrice = "75000"
-yearlyPrice = "750000"
+monthlyPrice = "100000"
+yearlyPrice = "1000000"
 buttonText = "Subscribe"
 buttonLink = "https://simulation.3dsim.com/signup"
 available = true
 highlights = [
-  "Uniform assumed strain"
+  "Uniform assumed strain simulations"
 ]
 features = [
   "Uniform assumed strain simulations",
-  "User-customized material assumptions",
+  "User-customized materials",
   "Realtime simulation progress",
-  "Community forum",
-  "Email support"
+  "Unlimited user logins",
+  "Email and in-app support",
+  "Community forum"
 ]
 finePrintItems = [
   "* 2 months free with prepaid annual subscription"
@@ -81,19 +82,17 @@ finePrintItems = [
 [[tiers]]
 planIdRoot = "exasim-advanced-"
 name = "exaSIM ADVANCED"
-monthlyPrice = "110000"
-yearlyPrice = "1100000"
+monthlyPrice = "150000"
+yearlyPrice = "1500000"
 buttonText = "Subscribe"
 buttonLink = "https://simulation.3dsim.com/signup"
 available = true
 highlights = [
-  "Uniform assumed strain and scan pattern based strain simulations"
+  "Scan pattern and uniform assumed strain simulations"
 ]
 features = [
-  "All features of base package",
-  "Scan pattern dependent strain simulations",
-  "More S3 storage",
-  "More user logins"
+  "All features of exaSIM Basic",
+  "Scan pattern dependent strain simulations"
 ]
 finePrintItems = [
   "* 2 months free with prepaid annual subscription"
@@ -101,20 +100,18 @@ finePrintItems = [
 
 [[tiers]]
 planIdRoot = "exasim-complete-"
-name = "exaSIM Complete"
-monthlyPrice = "160000"
-yearlyPrice = "1600000"
-buttonText = "Coming Soon"
-buttonLink = "#pricing"
-available = false
+name = "exaSIM Ultimate"
+monthlyPrice = "200000"
+yearlyPrice = "2000000"
+buttonText = "Subscribe"
+buttonLink = "https://simulation.3dsim.com/signup"
+available = true
 highlights = [
-  "Thermal strain, uniform assumed strain, and scan pattern based strain simulations",
+  "Thermal, scan pattern, and uniform assumed strain simulations",
 ]
 features = [
-  "All features of Advanced package",
-  "Thermal strain simulations",
-  "More S3 storage",
-  "More user logins"
+  "All features of exaSIM Advanced",
+  "Thermal strain simulations"
 ]
 finePrintItems = [
   "* 2 months free with prepaid annual subscription"
@@ -129,10 +126,12 @@ highlights = [
   "Enterprise scale, priority support, and personalized training",
 ]
 features = [
+  "All features of exaSIM Ultimate",
   "Additional concurrent simulations",
-  "More than 5 user logins",
-  "3TB+ S3 storage",
-  "Dedicated technical success manager"
+  "Additional storage",
+  "Dedicated technical success manager",
+  "Personalized training",
+  "Integrated with corporate authentication system"
 ]
 
 buttonText = "Contact us"

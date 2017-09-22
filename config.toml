@@ -74,7 +74,7 @@ googleAnalytics = "UA-83914032-1"
 	[params.callToAction]
 		url = "https://simulation.3dsim.com/signup"
 		name = "Free Trial"
-		enable = false
+		enable = true
 
 	# Hero section
 	[params.hero]
@@ -183,8 +183,14 @@ googleAnalytics = "UA-83914032-1"
     	[[params.about.events]]
 			img = "launch_small.jpg"
 			date = "September 2016"
-			title = "exaSIM Launch!"
+			title = "exaSIM Beta Launch"
 			description = "The first easy to use cloud-based simulation tool for predicting stress and distortion in metal laser sintering."
+
+    	[[params.about.events]]
+			img = "eclipse.jpg"
+			date = "September 2017"
+			title = "exaSIM Ultimate Launch"
+			description = "The only AM simulation tool incorporating full part thermal history."
 
 
 
