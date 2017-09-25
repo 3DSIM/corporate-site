@@ -1,22 +1,4 @@
-FEATURE LIST,exaSIM BASIC,exaSIM ADVANCED,exaSIM COMPLETE,exaSIM ENTERPRISE
-Auto-generated Supports (STL),x,x,x,x
-Distortion Trends (VTK),x,x,x,x
-Residual Stress Trends (VTK),x,x,x,x
-Uniform Assumed Strain,x,x,x,x
-Scan Pattern Dependent Strain,,x,x,x
-Thermal Strain,,,x,x
-Concurrent simulations* ,1,1,1,customizable
-User logins,Unlimited,Unlimited,Unlimited,Unlimited
-Community forum,x,x,x,x
-Email support,x,x,x,x
-User group participation,x,x,x,x
-Text message alerting for simulations,x,x,x,x
-Real-time simulation progress,x,x,x,x
-Cloud based access,x,x,x,x
-Allocated S3 storage limit,1 TB,2 TB,3 TB,customizable
-User-customized material assumptions ,x,x,x,x
-Thermophysical material database**,n/a,n/a,1,customizable
-Priority email support,,,,x
-Phone support,,,,x
-Onsite training,,,,Available
-Dedicated technical success manager,,,,Available
+INPUTS,exaSIM BASIC,exaSIM ADVANCED,exaSIM ULTIMATE,exaSIM ENTERPRISE
+UNIFORM ASSUMED ISOTROPIC STRAIN,x,x,x,x
+SCAN PATTERN ANISOTROPIC STRAIN,,x,x,x
+THERMAL ANISOTROPIC STRAIN,,,x,x

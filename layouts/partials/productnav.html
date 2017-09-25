@@ -36,6 +36,15 @@
                 <li>
                     <a href="https://app.3dsim.com">Login</a>
                 </li>
+                {{ if .Site.Params.callToAction.enable }}
+                <li>
+                    <p class="navbar-btn">
+                        <a href="{{ .Site.Params.callToAction.url }}">
+                            <btn class="btn btn-primary">{{ with .Site.Params.callToAction.name }}{{ . | markdownify }}{{ end }}</btn>
+                        </a>
+                    </p>
+                </li>
+                {{ end }}
             </ul>
         </div>
         {{ "<!-- /.navbar-collapse -->" | safeHTML }}

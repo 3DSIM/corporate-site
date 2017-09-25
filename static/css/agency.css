@@ -1139,6 +1139,10 @@ div .price {
 
 .download-info {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 60px;
     font-size: 200%;
+}
+
+.download-info .btn-xl {
+    background: rgba(189,27,33,1);
 }
