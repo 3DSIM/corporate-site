@@ -26,14 +26,18 @@
                   <h3>{{ with $overviewSection.title }}{{ . | markdownify }}{{ end }}</h3>
                   <div>{{ with $overviewSection.text }}{{ . | markdownify }}{{ end }}</div>
               </div>
+              {{ if $overviewSection.img }}
               <div class="col-lg-5">
                 <img src="{{ $.Site.BaseURL }}{{ $overviewSection.img }}"></img>
               </div>
+              {{ end }}
             {{ end }}
             {{ if eq (mod $i 2) 1 }}
+              {{ if $overviewSection.img }}
               <div class="col-lg-5">
                 <img src="{{ $.Site.BaseURL }}{{ $overviewSection.img }}"></img>
               </div>
+              {{ end }}
               <div class="col-lg-7">
                   <h3>{{ with $overviewSection.title }}{{ . | markdownify }}{{ end }}</h3>
                   <div>{{ with $overviewSection.text }}{{ . | markdownify }}{{ end }}</div>
