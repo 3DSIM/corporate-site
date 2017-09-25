@@ -1,29 +1,4 @@
-FEATURE LIST,exaSIM BASIC,exaSIM ADVANCED,exaSIM ULTIMATE,exaSIM ENTERPRISE
-Input Options,,,,
-Uniform Assumed Strain,x,x,x,x
-Scan Pattern Dependent Strain,,x,x,x
-Thermal Strain,,,x,x
-Output Options,,,,
-Auto-generated Supports,x,x,x,x
-Distortion Trends,x,x,x,x
-Residual Stress Trends,x,x,x,x
-Layer by Layer Visualization,x,x,x,x
-Distortion Compensation,x,x,x,x
-Blade Crash Detection,x,x,x,x
-High Strain Area Detection,x,x,x,x
-Cloud Features,,,,
-Concurrent simulations* ,1,1,1,customizable
-Compute and memory optimized servers,x,x,x,x
-User logins,Unlimited,Unlimited,Unlimited,Unlimited
-Community forum,x,x,x,x
-Email and in-app support,x,x,x,x
-User group participation,x,x,x,x
-Real-time simulation progress,x,x,x,x
-Access from any device,x,x,x,x
-Allocated S3 storage limit,3 TB,3 TB,3 TB,customizable
-User-customized material assumptions ,x,x,x,x
-Priority support,,,,x
-Phone support,,,,x
-Onsite training,,,,Available
-Dedicated technical success manager,,,,Available
-AWS GovCloud,Available,Available,Available,Available
+INPUTS,exaSIM BASIC,exaSIM ADVANCED,exaSIM ULTIMATE,exaSIM ENTERPRISE
+UNIFORM ASSUMED ISOTROPIC STRAIN,x,x,x,x
+SCAN PATTERN ANISOTROPIC STRAIN,,x,x,x
+THERMAL ANISOTROPIC STRAIN,,,x,x

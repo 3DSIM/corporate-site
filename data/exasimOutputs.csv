@@ -1,0 +1,9 @@
+OUTPUTS,exaSIM BASIC,exaSIM ADVANCED,exaSIM ULTIMATE,exaSIM ENTERPRISE
+Stress-Based Automatically Generated Supports,x,x,x,x
+"On-Plate, As-Built Part Distortion & Residual Stress",x,x,x,x
+Part Distortion after Removal from Supports,x,x,x,x
+Distortion Compensation,x,x,x,x
+Blade Crash Detection,x,x,x,x
+Identification of High Strain Locations,x,x,x,x
+"Layer by Layer Stress, Distortion & Blade Crash Visualizations",x,x,x,x
+Build File Readers for Multiple AM Machines,x,x,x,x

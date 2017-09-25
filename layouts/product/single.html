@@ -42,7 +42,7 @@
         </div>
         {{ end }}
         <div class="col-lg-12 row download-info">
-          <a href="{{ .Site.BaseURL }}{{ $productData.downloadInfoURL }}">{{ $productData.downloadInfoText }}</a>
+          <a class="btn btn-xl" href="{{ .Site.BaseURL }}{{ $productData.downloadInfoURL }}">{{ $productData.downloadInfoText }}</a>
         </div>
       </div>
     </section>
@@ -90,13 +90,8 @@
             </div>
         </div>
         <div class="row">
-            <!-- <article id="content">
-               {{ .Content }}
-             </article> -->
-               <!-- {{ $data := (index $.Site.Data.products $.Title)}}
-               {{ $data.csv }} -->
            <table class="table table-bordered feature-comparison-table">
-             {{ $csvData := getCSV "," $productData.csv}}
+             {{ $csvData := getCSV "," $productData.csvInputs}}
              <thead>
                <tr>
                  {{ range $_, $header := (index $csvData 0)}}
@@ -117,7 +112,52 @@
                {{ end }}
              </tbody>
            </table>
-           <div>* Concurrent simulation limit can be increased for $1,000/month or $10,000/year per instance</div>
+           <table class="table table-bordered feature-comparison-table">
+             {{ $csvData := getCSV "," $productData.csvOutputs}}
+             <thead>
+               <tr>
+                 {{ range $_, $header := (index $csvData 0)}}
+                 <th>{{ $header }}</th>
+                 {{ end }}
+               </tr>
+            </thead>
+             <tbody>
+               {{ range $i, $r := $csvData }}
+                 {{ if ne $i 0 }}
+                 <tr>
+                    {{ range $j, $value := $r}}
+                    <!-- TODO use css style sheet and http://stackoverflow.com/a/15675170/411229 to style first child td element -->
+                    <td {{ if ne $j 0 }}style="text-align:center;"{{ end }}>{{ if eq $value "x" }}<i class="fa fa-check"></i>{{ else }}{{ $value }}{{ end }}</td>
+                    {{ end }}
+                 </tr>
+                 {{ end }}
+               {{ end }}
+             </tbody>
+           </table>
+           <table class="table table-bordered feature-comparison-table">
+             {{ $csvData := getCSV "," $productData.csvCloud}}
+             <thead>
+               <tr>
+                 {{ range $_, $header := (index $csvData 0)}}
+                 <th>{{ $header }}</th>
+                 {{ end }}
+               </tr>
+            </thead>
+             <tbody>
+               {{ range $i, $r := $csvData }}
+                 {{ if ne $i 0 }}
+                 <tr>
+                    {{ range $j, $value := $r}}
+                    <!-- TODO use css style sheet and http://stackoverflow.com/a/15675170/411229 to style first child td element -->
+                    <td {{ if ne $j 0 }}style="text-align:center;"{{ end }}>{{ if eq $value "x" }}<i class="fa fa-check"></i>{{ else }}{{ $value }}{{ end }}</td>
+                    {{ end }}
+                 </tr>
+                 {{ end }}
+               {{ end }}
+             </tbody>
+           </table>
+           <div>* Concurrent simulation limit can be increased for $1,000/month or $10,000/year per instance. 1TB additional storage included per instance.</div>
+           <div>** AWS GovCloud upgrade available for $5,000/year.</div>
         </div>
       </div>
     </section>
@@ -131,7 +171,7 @@
         </div>
         <div class="row">
             <div class="col-lg-12">
-              {{ range $_, $faq := $data.faqs }}
+              {{ range $_, $faq := $productData.faqs }}
               <div class="faq">
                 <div class="question">{{ $faq.question }}</div>
                 <div class="answer">{{ $faq.answer }}</div>

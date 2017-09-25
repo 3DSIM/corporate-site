@@ -1,0 +1,19 @@
+{{ "<!-- Clients Aside -->" | safeHTML }}
+<aside class="clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h3 class="text-center section-subheading text-muted">Join our Growing List of Customers & Partners</h3>
+            </div>
+        </div>
+        <div class="row">
+            {{ range .Site.Params.clients }}
+            <div class="col-md-3 col-sm-6">
+                <a href="{{ .link }}">
+                    <img src="img/logos/{{ .logo }}" class="img-responsive img-centered" alt="">
+                </a>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</aside>
