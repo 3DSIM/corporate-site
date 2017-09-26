@@ -3,13 +3,13 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
-                <h3 class="customer-heading text-muted">{{ with .Site.Params.customers.title }}{{ . | markdownify }}{{ end }}</h2>
+                <h3 class="customer-heading"><strong>{{ with .Site.Params.customers.title | upper }}{{ . | markdownify }}{{ end }}</strong></h2>
             </div>
         </div>
         <div class="row">
-            <div class="carousel slide media-carousel" id="logos">
+            <div class="carousel slide media-carousel" data-interval="4000" data-ride="carousel" id="logosCarousel">
                 <div class="carousel-inner">
-                    {{ $files := readDir "static/img/logos" }}
+                    {{ $files := readDir "static/img/logos" | shuffle }}
                     <div class="item active">
                         <div class="row">
                             <div class="col-md-2"></div>
@@ -19,8 +19,6 @@
                             </div>
                             {{ end }}
                         </div>
-                    </div>
-                    <div class="item">
                         <div class="row">
                             <div class="col-md-2"></div>
                             {{ range after 4 (first 8 $files) }}
@@ -39,8 +37,6 @@
                             </div>
                             {{ end }}
                         </div>
-                    </div>
-                    <div class="item">
                         <div class="row">
                             <div class="col-md-2"></div>
                             {{ range after 12 (first 16 $files) }}
@@ -59,8 +55,6 @@
                             </div>
                             {{ end }}
                         </div>
-                    </div>
-                    <div class="item">
                         <div class="row">
                             <div class="col-md-2"></div>
                             {{ range after 20 (first 24 $files) }}
@@ -79,10 +73,18 @@
                             </div>
                             {{ end }}
                         </div>
+                        <div class="row">
+                            <div class="col-md-2"></div>
+                            {{ range after 28 (first 32 $files) }}
+                            <div class="col-md-2">
+                                <img src="img/logos/{{ .Name | urlize }}" class="img-responsive center-block logo" alt="{{ .Name }}">
+                            </div>
+                            {{ end }}
+                        </div>
                     </div>
                 </div>
-                <a data-slide="prev" href="#logos" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <a data-slide="next" href="#logos" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
+                <a data-slide="prev" href="#logosCarousel" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left"></span></a>
+                <a data-slide="next" href="#logosCarousel" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right"></span></a>
             </div>
         </div>
     </div>
