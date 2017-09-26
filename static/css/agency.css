@@ -1159,3 +1159,19 @@ div .price {
 .alert.alert-success .badge {
     font-size: 110%;
 }
+
+.logo {
+    max-height: 50px;
+}
+
+.carousel .carousel-control {
+    background-image: none;
+}
+
+aside h3.customer-heading {
+    text-transform: none;
+    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
