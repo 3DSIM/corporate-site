@@ -233,26 +233,9 @@ googleAnalytics = "UA-83914032-1"
 			]
 
 	# Client section
-    [params.clients_list]
-        enable = false
-
-    	# All the clients' logos are stored under 'static/img/logos'.
-    	# Replace them with your clients's logos.
-    	[[params.clients]]
-    		logo = "envato.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "designmodo.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "themeforest.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "creative-market.jpg"
-    		link = "#"
+    [params.customers]
+        enable = true
+		title = "Join our Growing List of Customers & Partners"
 
 
 	# Contact section
