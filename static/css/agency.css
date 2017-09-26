@@ -1146,3 +1146,16 @@ div .price {
 .download-info .btn-xl {
     background: rgba(189,27,33,1);
 }
+
+.alert.alert-success, .alert.alert-success a {
+    color: white;
+    background-color: rgba(189,27,33,1);
+    background-image: none;
+    border-color: rgba(189,27,33,1);
+    margin-bottom: 0px;
+    font-size: 120%;
+}
+
+.alert.alert-success .badge {
+    font-size: 110%;
+}
