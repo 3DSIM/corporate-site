@@ -80,7 +80,7 @@ googleAnalytics = "UA-83914032-1"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Global Leader in Metal-AM Simulation Technology"
+		title = "The Global Leader in Metal AM Simulation Technology"
 		subtitle = "Detailed science^500 <i class=\"fa fa-caret-right\"></i> ^1000Production success"
 		buttonText = "Subscribe Now"
 		buttonLink = "https://simulation.3dsim.com/signup"

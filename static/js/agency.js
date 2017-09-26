@@ -24,3 +24,10 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a:not(.dropdown-toggle)').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// Randomly start the logos carousel at a different position
+$(document).ready(function() {
+  var currentSlide = Math.floor((Math.random() * $('.item').length));
+  // Subtract 1 so we never start with the incomplete page of logos
+  $('#logosCarousel').carousel(currentSlide-1);
+});
