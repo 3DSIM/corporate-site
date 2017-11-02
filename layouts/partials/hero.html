@@ -3,27 +3,27 @@
     <div class="container">
         <div class="intro-text">
           <div class="intro-text-blur">
-            <div id="typed-strings" hidden="true" class="intro-lead-in"><p>{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</p></div>
-            <div id="typed" class="intro-lead-in" style="display:inline"></div>
+            <div id="typed-strings" hidden="true" class="intro-heading"><p>{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</p></div>
+            <div id="typed" class="intro-heading" style="display:inline"></div>
             <br/>
             <br/>
-            <div id="typed-next-strings" hidden="true" class="intro-heading"><p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p></div>
-            <div id="typed-next" class="intro-heading" style="display:inline"></div>
-            <div class="bottom">
+            <!-- <div id="typed-next-strings" hidden="true" class="intro-heading"><p>{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</p></div>
+            <div id="typed-next" class="intro-heading" style="display:inline"></div> -->
+            <!-- <div class="bottom">
               {{ if .Site.Params.hero.videoButtonEnabled }}
               <a class="popup-youtube btn btn-xl" href="{{ .Site.Params.hero.videoLink }}">{{ with.Site.Params.hero.videoButtonText }}{{ . | markdownify }}{{ end }}</a>
               {{ end }}
               <a href="{{ .Site.Params.hero.buttonLink }}" class="btn btn-xl">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
-            </div>
+            </div> -->
           </div>
         </div>
         {{ if .Site.Params.hero.announcementEnabled }}
         <div class="alert alert-success alert-dismissible footer navbar-fixed-bottom" role="alert">
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <span class="badge  alert-danger pull-right close-button" data-dismiss="alert" aria-label="Close">&times;</span>
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <span class="badge">{{ .Site.Params.hero.announcementDate | upper}}</span>
+                    <span class="badge close-button">{{ .Site.Params.hero.announcementDate | upper}}</span>
                     {{ with.Site.Params.hero.announcementText }}{{ . | markdownify }}{{ end }}
                 </div>
                 <div class="col-sm-12 col-md-6">

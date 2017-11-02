@@ -7,6 +7,9 @@ active = true
 overviewSubheading = "Primary features of exaSIM&#x2122;"
 downloadInfoText = "Download exaSIM Flyer"
 downloadInfoURL = "pdf/exaSIMFlyer25Sep2017.pdf"
+enablePricing = true
+enableFeatureComparison = true
+enableFAQ = true
 
 [[overviewSections]]
 title = "What is it?"

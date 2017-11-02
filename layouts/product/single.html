@@ -50,6 +50,7 @@
         </div>
       </div>
     </section>
+    {{ if $productData.enablePricing }}
     <section id="pricing" class="bg-light-gray">
       <div class="container">
         <div class="row">
@@ -85,6 +86,8 @@
         </div>
       </div>
     </section>
+    {{ end }}
+    {{ if $productData.enableFeatureComparison }}
     <section id="feature-comparison">
       <div class="container">
         <div class="row">
@@ -165,6 +168,8 @@
         </div>
       </div>
     </section>
+    {{ end }}
+    {{ if $productData.enableFAQ }}
     <section id="faq" class="bg-light-gray">
       <div class="container">
         <div class="row">
@@ -185,6 +190,7 @@
         </div>
       </div>
     </section>
+    {{ end }}
     {{ partial "contact.html" . }}
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
