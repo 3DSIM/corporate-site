@@ -6,10 +6,11 @@ logo = "portfolio/exasimlogo.png"
 active = true
 overviewSubheading = "Primary features of exaSIM&#x2122;"
 downloadInfoText = "Download exaSIM Flyer"
-downloadInfoURL = "pdf/exaSIMFlyer25Sep2017.pdf"
+downloadInfoURL = "pdf/exaSIMFlyerNov2017.pdf"
 enablePricing = true
 enableFeatureComparison = true
 enableFAQ = true
+enableOverview = true
 
 [[overviewSections]]
 title = "What is it?"

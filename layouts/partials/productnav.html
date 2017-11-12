@@ -1,5 +1,6 @@
 {{ "<!-- Navigation -->" | safeHTML }}
 <nav class="navbar navbar-default navbar-fixed-top">
+    {{ $productData := (index $.Site.Data.products $.Title)}}
     <div class="container">
         {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
         <div class="navbar-header page-scroll">
@@ -17,19 +18,26 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
-
+                {{ if $productData.enableOverview }}
                 <li>
                     <a class="page-scroll" href="#overview">Overview</a>
                 </li>
+                {{ end }}
+                {{ if $productData.enablePricing }}
                 <li>
                     <a class="page-scroll" href="#pricing">Pricing</a>
                 </li>
+                {{ end }}
+                {{ if $productData.enableFeatureComparison }}
                 <li>
                     <a class="page-scroll" href="#feature-comparison">Feature Comparison</a>
                 </li>
+                {{ end }}
+                {{ if $productData.enableFAQ }}
                 <li>
                     <a class="page-scroll" href="#faq">FAQ</a>
                 </li>
+                {{ end }}
                 <li>
                     <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
                 </li>
