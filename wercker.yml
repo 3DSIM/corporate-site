@@ -9,7 +9,7 @@
   deploy:
     steps:
       - install-packages:
-          packages: git ssh-client libedit2
+          packages: git openssh-client
       - lukevivier/gh-pages@0.2.1:
           token: $GIT_TOKEN
           basedir: public
