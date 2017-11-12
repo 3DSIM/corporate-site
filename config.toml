@@ -80,7 +80,7 @@ googleAnalytics = "UA-83914032-1"
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "The Global Leader in Metal AM Simulation Technology"
+		title = "Seize Control of Your Additive Manufacturing Process"
 		subtitle = "Detailed science^500 <i class=\"fa fa-caret-right\"></i> ^1000Production success"
 		buttonText = "Subscribe Now"
 		buttonLink = "https://simulation.3dsim.com/signup"
@@ -96,7 +96,7 @@ googleAnalytics = "UA-83914032-1"
 
 	# Services section
 	[params.services]
-    	enable = true
+    	enable = false
 		title = "Features"
 		subtitle = "Providing unprecedented insight into metal 3D printing processes."
 
@@ -153,8 +153,8 @@ googleAnalytics = "UA-83914032-1"
     # About section
 	[params.about]
         enable = true
-		title = "About"
-		subtitle = "Our journey from idea to product"
+		title = "3DSIM"
+		subtitle = "About us"
 		endpoint = "Be part<br>of our<br>story!"
 
 		# The events will be listed from the top to the bottom.
