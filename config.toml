@@ -88,10 +88,10 @@ googleAnalytics = "UA-83914032-1"
     	videoLink = "https://www.youtube.com/watch?v=pKk_krg2DC4"
     	videoButtonText = "<i class=\"fa fa-play-circle\"></i> Play Video"
 		announcementEnabled = true
-		announcementDate = "September 26, 2017"
-		announcementText = "exaSIM Ultimate has launched!"
+		announcementDate = "November 9, 2017"
+		announcementText = "Sigma Labs and 3DSIM release simulation thermal sensors"
 		announcementLinkText = "Read the press release"
-		announcementLinkUrl = "http://learn.3dsim.com/3dsim-launches-exasim-ultimate-tct-2017/"
+		announcementLinkUrl = "http://learn.3dsim.com/sigma-labs-3dsim-release-simulation-capability-model-thermal-sensors-metal-additive-manufacturing-processes/"
 
 
 	# Services section
