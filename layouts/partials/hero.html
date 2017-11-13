@@ -22,11 +22,14 @@
             <span class="badge  alert-danger pull-right close-button" data-dismiss="alert" aria-label="Close">&times;</span>
             <div class="container">
               <div class="row">
-                <div class="col-sm-12 col-md-6">
-                    <span class="badge close-button">{{ .Site.Params.hero.announcementDate | upper}}</span>
-                    {{ with.Site.Params.hero.announcementText }}{{ . | markdownify }}{{ end }}
+                <div class="col-sm-10 col-md-8">
+                  <span class="badge">{{ .Site.Params.hero.announcementDate | upper}}</span>
+                  <span>{{ with.Site.Params.hero.announcementText }}{{ . | markdownify }}{{ end }}</span>
                 </div>
-                <div class="col-sm-12 col-md-6">
+                <div class="col-sm-1">
+                  <span class="close-button"></span>
+                </div>
+                <div class="col-sm-10 col-md-3">
                   <a href="{{ .Site.Params.hero.announcementLinkUrl }}">{{ with.Site.Params.hero.announcementLinkText }}{{ . | markdownify }}{{ end }}</a>
                 </div>
               </div>
