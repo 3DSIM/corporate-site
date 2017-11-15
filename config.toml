@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://3dsim.github.io/corporate-site/"
 languageCode = "en-us"
-title = "Additive Manufacturing Simulation"
+title = "3DSIM - an Ansys Company"
 copyright = "All rights reserved - 2017"
 theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
@@ -88,10 +88,10 @@ googleAnalytics = "UA-83914032-1"
     	videoLink = "https://www.youtube.com/watch?v=pKk_krg2DC4"
     	videoButtonText = "<i class=\"fa fa-play-circle\"></i> Play Video"
 		announcementEnabled = true
-		announcementDate = "November 9, 2017"
-		announcementText = "Sigma Labs and 3DSIM release simulation thermal sensors"
+		announcementDate = "November 15, 2017"
+		announcementText = "Ansys Acquires AM Simulation Leader 3DSIM"
 		announcementLinkText = "Read the press release"
-		announcementLinkUrl = "http://learn.3dsim.com/sigma-labs-3dsim-release-simulation-capability-model-thermal-sensors-metal-additive-manufacturing-processes/"
+		announcementLinkUrl = "http://learn.3dsim.com/ansys-acquires-additive-manufacturing-simulation-leader-3dsim/"
 
 
 	# Services section
