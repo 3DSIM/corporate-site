@@ -72,7 +72,7 @@ googleAnalytics = "UA-83914032-1"
         weight = 20
 
 	[params.callToAction]
-		url = "https://simulation.3dsim.com/signup"
+		url = "#contact"
 		name = "Free Trial"
 		enable = true
 
@@ -241,8 +241,8 @@ googleAnalytics = "UA-83914032-1"
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Still have questions?"
-		subtitle  = "Schedule a demo, request more information, or connect with our team."
+		title = "Still have questions?<br/>Want a free trial?"
+		subtitle  = "Schedule a demo, request more information, request a free trial, or connect with our team."
 		buttonText = "Send message"
 
 		# 'warning' defines error messages for invalid inputs
