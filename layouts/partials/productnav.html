@@ -38,9 +38,12 @@
                     <a class="page-scroll" href="#faq">FAQ</a>
                 </li>
                 {{ end }}
+
+                {{ if .Site.Params.contact.enable }}
                 <li>
-                    <a class="page-scroll" href="#contact">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
+                    <a class="page-scroll" href="{{ .Site.Params.contact.url }}">{{ with .Site.Params.navigation.contact }}{{ . | markdownify }}{{ end }}</a>
                 </li>
+                {{ end }}
                 <li>
                     <a href="https://app.3dsim.com">Login</a>
                 </li>
