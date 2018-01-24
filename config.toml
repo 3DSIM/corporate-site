@@ -72,7 +72,7 @@ googleAnalytics = "UA-83914032-1"
         weight = 20
 
 	[params.callToAction]
-		url = "#contact"
+		url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=Contact%20Me&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
 		name = "Free Trial"
 		enable = true
 
@@ -241,32 +241,13 @@ googleAnalytics = "UA-83914032-1"
 	# Contact section
 	[params.contact]
         enable = true
-		title = "Still have questions?<br/>Want a free trial?"
-		subtitle  = "Schedule a demo, request more information, request a free trial, or connect with our team."
-		buttonText = "Send message"
-
-		# 'warning' defines error messages for invalid inputs
-		[params.contact.form.name]
-			text = "Your Name *"
-			warning = "Please enter your name."
-
-		[params.contact.form.email]
-			text = "Your Email *"
-			warning = "Please enter your email address."
-
-		[params.contact.form.phone]
-			text = "Your Phone"
-			warning = "Please enter your phone number."
-
-		[params.contact.form.message]
-			text = "Your Message *"
-			warning = "Please enter a message."
+        url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=Contact%20Me&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
 
 
 	# Footer section
 	[params.footer]
     enable = true
-		copyright = "&#169;Copyright 2017 3DSIM LLC, All Rights Reserved"
+		copyright = "&#169;Copyright 2018 3DSIM LLC, All Rights Reserved"
     contact = "<i class=\"fa fa-map-marker\"></i> 1794 Olympic Parkway, Park City, UT 84098 <br/><i class=\"fa fa-phone\"></i> (435) 602-4033"
 
 		# [[params.footer.social]]
