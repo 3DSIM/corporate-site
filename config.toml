@@ -72,7 +72,7 @@ googleAnalytics = "UA-83914032-1"
         weight = 20
 
 	[params.callToAction]
-		url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=Contact%20Me&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
+		url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=3DSIM%20Contact%20Me%20FreeTrial&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
 		name = "Free Trial"
 		enable = true
 
@@ -241,7 +241,7 @@ googleAnalytics = "UA-83914032-1"
 	# Contact section
 	[params.contact]
         enable = true
-        url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=Contact%20Me&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
+        url = "https://pages.email.ansys.com/contactme/?&e=Contact&t=ContactMe&d=3DSIM%20Contact%20Me&tsd=ContactTrigger-EN&p=Additive%20Manufacturing%20|%20ANSYS"
 
 
 	# Footer section
